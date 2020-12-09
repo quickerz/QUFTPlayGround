@@ -1,7 +1,13 @@
 ﻿Browser("Advantage Shopping").Page("Advantage Shopping").Link("SpeakersCategoryTxt").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").Link("SpeakersCategoryTxt")_;_script infofile_;_ZIP::ssf1.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("HP S9500 Bluetooth Wireless").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("HP S9500 Bluetooth Wireless")_;_script infofile_;_ZIP::ssf2.xml_;_
-Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity").Set "3" @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity")_;_script infofile_;_ZIP::ssf3.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("$200.00 SOLD OUT").Output CheckPoint("$200.00 SOLD OUT") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("$200.00 SOLD OUT")_;_script infofile_;_ZIP::ssf3.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity").Set DataTable("nItem", dtGlobalSheet) @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity")_;_script infofile_;_ZIP::ssf3.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save_to_cart").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save to cart")_;_script infofile_;_ZIP::ssf4.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("ShoppingCart").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").Link("ShoppingCart")_;_script infofile_;_ZIP::ssf5.xml_;_
+'Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME").Check CheckPoint("PRODUCT NAME") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME")_;_script infofile_;_ZIP::ssf6.xml_;_
+'Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME").Output CheckPoint("PRODUCT NAME_2") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME")_1_;_script infofile_;_ZIP::ssf6.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME").Check CheckPoint("PRODUCT NAME_3") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME")_2_;_script infofile_;_ZIP::ssf6.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("REMOVE").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("REMOVE")_;_script infofile_;_ZIP::ssf6.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("Link").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").Link("Link")_;_script infofile_;_ZIP::ssf7.xml_;_
+Browser("Advantage Shopping").Close
+wait 2
