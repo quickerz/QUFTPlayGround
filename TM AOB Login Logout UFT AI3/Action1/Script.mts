@@ -136,6 +136,4 @@ set oContext=LaunchEnvironment
 AIUtil.SetContext oContext 	
 Login
 Logout
-	
-	
 
