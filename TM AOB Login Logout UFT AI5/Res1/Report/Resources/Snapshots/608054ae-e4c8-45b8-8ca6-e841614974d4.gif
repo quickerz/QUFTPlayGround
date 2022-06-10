@@ -1,0 +1,9 @@
+{
+"cause2":"java.lang.NullPointerException",
+"cause1":"org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException",
+"servlet":"dispatcherServletRegistration",
+"cause0":"javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException",
+"message":"javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException",
+"url":"/rest/v2/stepGif",
+"status":"500"
+}
