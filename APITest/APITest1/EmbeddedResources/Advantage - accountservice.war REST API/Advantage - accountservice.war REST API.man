@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>642ee3d8-e8b7-495b-8870-2e53a652bcb2</ID>
+  <Name>Advantage - accountservice.war REST API</Name>
+  <Type>REST</Type>
+  <Version>1</Version>
+  <CreationDate>2022-06-21T05:42:18.8424849+00:00</CreationDate>
+  <UpdateDate>2022-06-21T05:42:18.8424849+00:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>bca06705-6117-40cf-84cf-c774c9f5c158.xml</MetaDataSignatureFile>
+  <TestResourceId>bca06705-6117-40cf-84cf-c774c9f5c158</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.RestDesignTime.RestServicesV2</SignatureCodonId>
+  <SignatureAddinVersion>2021.1.0.184</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\demo\Documents\UFT One\QUFTPlayGround-master\APITest1\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\demo\Documents\UFT One\QUFTPlayGround-master\APITest1\EmbeddedResources\Advantage - accountservice.war REST API</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>2021.1.0.184</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>
