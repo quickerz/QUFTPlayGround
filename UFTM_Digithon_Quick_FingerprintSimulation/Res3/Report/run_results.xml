@@ -1,0 +1,948 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.SetContext</Name>
+    <Description>Set context Device("[ Device ]") for AIUtil</Description>
+    <StartTime>2022-09-20 06:59:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>AIUtil</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e8344435-2a2b-4446-a105-aaa66335d050.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("hamburger_menu").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 06:59:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("hamburger_menu")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>91.97</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("hamburger_menu")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[hamburger_menu]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bfa709a7-3a4a-4930-a2ae-6b6f2cea22d3.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 06:59:21.685</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("profile").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 06:59:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("profile")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>96.50</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("profile")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[profile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\02bdb1fb-fa26-4371-bbb8-ee5bdf225c22.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 06:59:30.302</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "USER NAME").Type</Name>
+    <Description>"Mercury"</Description>
+    <StartTime>2022-09-20 06:59:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("input", "USER NAME")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>90.44</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "USER NAME")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["Mercury"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[USER NAME]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\44983847-0463-4bce-b37e-add1d584258c.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 06:59:37.156</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("PASSWORD").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 06:59:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("PASSWORD")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>92.00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("PASSWORD")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[PASSWORD]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\08e795bb-f952-4ef6-8b2a-e1eb179957eb.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 06:59:43.852</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "PASSWORD").Type</Name>
+    <Description>"Mercury"</Description>
+    <StartTime>2022-09-20 07:00:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("input", "PASSWORD")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>66.00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "PASSWORD")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["Mercury"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[PASSWORD]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\427b0301-93de-4937-a5f8-d2b072e37756.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 06:59:53.370</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("button", "LOGIN").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:00:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("button", "LOGIN")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>95.51</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("button", "LOGIN")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LOGIN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a942fedc-7631-44d5-9928-8cffd6ae8246.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:00:00.455</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("YES").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:00:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("YES")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>91.00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("YES")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[YES]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\514fc04a-7c84-4896-98a6-8b745910ebae.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:00:07.041</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Advantage Shopping.SimulateAuthentication</Name>
+    <Description>"Success"</Description>
+    <StartTime>2022-09-20 07:00:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <Operation>SimulateAuthentication</Operation>
+        <OperationData><![CDATA["Success"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[instrumented]]></Name>
+            <Value><![CDATA[True]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[identifier]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fed559f285d44691918572eba52ad0c7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\514fc04a-7c84-4896-98a6-8b745910ebae.gif" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("search").Search</Name>
+    <Description>"laptop"</Description>
+    <StartTime>2022-09-20 07:00:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("search")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>92.28</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("search")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Search</Operation>
+        <OperationData><![CDATA["laptop"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[search]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\626e7708-2e16-485e-a53f-e003ec78babc.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:00:17.589</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("search").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:00:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("search")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>92.16</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("search")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[search]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\65145ef6-c0ef-445b-ab64-4dc9500486e2.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:00:31.863</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("HP PAVILION X360").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:01:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("HP PAVILION X360")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>92.00</AIMatchScore>
+        <AIAutoscrollAttempts>1</AIAutoscrollAttempts>
+        <AIAutoscrollDirection>down</AIAutoscrollDirection>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("HP PAVILION X360")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[HP PAVILION X360]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\62e30326-8864-44b0-a9cb-d2504b8f7894.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:01:00.830</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>AIUtil.FindTextBlock("$319.99").CheckExists</Name>
+    <Description>Checkpoint passed.</Description>
+    <StartTime>2022-09-20 07:01:32</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("$319.99")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>87.00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+        <AICheckpointExpect>TRUE</AICheckpointExpect>
+        <AICheckpointActual>TRUE</AICheckpointActual>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("$319.99")]]></Name>
+          </Object>
+        </Path>
+        <Operation>CheckExists</Operation>
+        <OperationData><![CDATA[Checkpoint passed.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[$319.99]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\62e30326-8864-44b0-a9cb-d2504b8f7894.gif" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("button", "ADD TO CART").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:01:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("button", "ADD TO CART")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>94.90</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("button", "ADD TO CART")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ADD TO CART]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9641b4f0-fb16-46a3-a358-ce53d9259b40.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:01:21.743</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("shopping_cart").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:01:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("shopping_cart")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>92.68</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("shopping_cart")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[shopping_cart]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f8623045-b346-41bd-861f-b007111d74fa.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:01:29.720</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("button", "CHECKOUT (PAY $319.99)").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:01:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("button", "CHECKOUT (PAY $319.99)")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>94.06</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("button", "CHECKOUT (PAY $319.99)")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[CHECKOUT (PAY $319.99)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0fb2156f-9e4c-4fca-b26e-d443cca0fbb9.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:01:37.111</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("button", "PAY NOW").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:01:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("button", "PAY NOW")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>94.22</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("button", "PAY NOW")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[PAY NOW]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\335c3540-7ce0-48c7-a637-dd4d031206b1.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:01:44.062</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("close").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:02:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("close")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>88.54</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("close")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[close]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f8118d3e-92be-4b70-99f2-5f871f7d573c.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:01:51.201</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("hamburger_menu").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:02:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("hamburger_menu")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>91.97</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("hamburger_menu")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[hamburger_menu]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\85d77036-6f7b-44f9-91c7-d52484c2dfc0.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:02:02.051</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("profile").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:02:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("profile")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>96.47</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("profile")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[profile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\71f5bd7f-c9cc-4edc-b218-25e622d56cf8.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:02:10.703</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.FindTextBlock("YES").Click</Name>
+    <Description />
+    <StartTime>2022-09-20 07:02:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil.FindTextBlock("YES")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>92.00</AIMatchScore>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[[ Device ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil.FindTextBlock("YES")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[YES]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>188e1cc5b03b4bee9234bd3fbb933b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d0ddacda-be03-4b81-a182-1d2515926ebc.gif" />
+    <DeviceInfo>
+      <DeviceTime>2022-09-20 07:02:18.191</DeviceTime>
+      <TimeZone>UTC+00:00 Greenwich Mean Time</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device [Google sdk_gphone64_x86_64]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;ID: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;62f77e3e-bf41-4148-80e0-e59b039bc974&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Manufacturer: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Google&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Model: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;sdk_gphone64_x86_64&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Type: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;ANDROID&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Version: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;12&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Source: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;MC&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-09-20 07:00:25</StartTime>
+    <Duration>131</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <Operation> [Google sdk_gphone64_x86_64]</Operation>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">ID: </span><span style="text-align : left; font-size : 12px; ">62f77e3e-bf41-4148-80e0-e59b039bc974</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Manufacturer: </span><span style="text-align : left; font-size : 12px; ">Google</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Model: </span><span style="text-align : left; font-size : 12px; ">sdk_gphone64_x86_64</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Type: </span><span style="text-align : left; font-size : 12px; ">ANDROID</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Version: </span><span style="text-align : left; font-size : 12px; ">12</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Source: </span><span style="text-align : left; font-size : 12px; ">MC</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>c90b578eeb8e4abd8c49a5a84af176c6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-09-20 06:59:15</StartTime>
+    <Duration>201</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d9e9b6ddde2246269870e11c3c043851</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-09-20 06:59:15</StartTime>
+    <Duration>201</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>a3dab0608f744e4c8d290adfe59c27ba</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>UFTM_Digithon_Quick</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-09-20 06:59:10</StartTime>
+    <Duration>207</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>3fa96ebbc07e4ed48d96543e8c595fb1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16196</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2022-09-20 06:59:10</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
