@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Publish to OpenText SDP
-        uses: opentext/sdp-github-actions-integration
+        uses: opentext/sdp-github-actions-integration@main
         id: gitHubActionsIntegration
         with:
           octaneUrl: 'https://almoctane-eur.saas.microfocus.com'
