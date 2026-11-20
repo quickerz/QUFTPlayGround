@@ -3,7 +3,7 @@ name: OpenText Software Delivery Platform Integration
 on:
   workflow_run:
     workflows: ["CSDP Demo Pipeline"]
-    types: [completed]
+    types: [requested, in_progress, completed]
 
 permissions:
   actions: read
