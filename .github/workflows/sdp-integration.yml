@@ -28,3 +28,4 @@ jobs:
           githubToken: ${{secrets.GITHUB_TOKEN}}
           serverBaseUrl: 'https://github.com/quickerz/QUFTPlayGround'
           pipelineNamePattern: '${workflow_name}'
+          logLevel: '2'
