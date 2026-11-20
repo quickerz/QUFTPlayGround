@@ -1,0 +1,30 @@
+name: OpenText Software Delivery Platform Integration
+
+on:
+  workflow_run:
+    workflows: ["CSDP Demo Pipeline"]
+    types: [requested, in_progress, completed]
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: read
+
+jobs:
+  sdp_integration_job:
+    runs-on: ubuntu-latest
+    name: SDP-Integration#${{github.event.action}}#${{github.event.workflow_run.id}}
+
+    steps:
+      - name: Publish to OpenText SDP
+        uses: opentext/sdp-github-actions-integration
+        id: gitHubActionsIntegration
+        with:
+          octaneUrl: 'https://almoctane-eur.saas.microfocus.com'
+          octaneSharedSpace: 416002
+          octaneWorkspace: 2028
+          octaneClientId: ${{secrets.SDP_CLIENT_ID}}
+          octaneClientSecret: ${{secrets.SDP_CLIENT_SECRET}}
+          githubToken: ${{secrets.GITHUB_TOKEN}}
+          serverBaseUrl: 'https://github.com/quickerz/QUFTPlayGround'
+          pipelineNamePattern: '${workflow_name}'
