@@ -27,5 +27,5 @@ jobs:
           octaneClientSecret: ${{secrets.SDP_CLIENT_SECRET}}
           githubToken: ${{secrets.GITHUB_TOKEN}}
           serverBaseUrl: 'https://github.com/quickerz/QUFTPlayGround'
-          pipelineNamePattern: '${workflow_name}'
+          pipelineNamePattern: 'CSDP-GitHub-Test'
           logLevel: '2'
